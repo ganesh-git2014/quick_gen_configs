@@ -7,21 +7,21 @@ To use this script open up terminal and cd to the quick_gen_scripts folder:</br>
 </br>
 `├── base_configs`</br>
 `├── quick_gen_configs <-- Here`</br>
-`│   ├── base_configs.txt`</br>
-`│   ├── cluster_configs.txt`</br>
+`│   ├── base_configs`</br>
+`│   ├── cluster_configs`</br>
 `│   ├── create_base_configs.sh`</br>
 `│   ├── readme.md`</br>
-`│   └── shcluster_configs.txt`</br>
+`│   └── shcluster_configs`</br>
 `├── cluster_configs`</br>
 `└── shcluster_configs`</br>
 </br>
 To generate a copy of the config use the following command:</br>
 </br>
-`$ bash create_base_configs.sh {base_configs.txt|clusterconfigs.txt|shcluster_configs.txt} {customername}`</br>
+`$ bash create_base_configs.sh {base_configs|clusterconfigs|shcluster_configs} {customername}`</br>
 </br>
 Example:</br>
 </br>
-`$ bash create_base_configs.sh base_configs.txt buttercup_games`</br>
+`$ bash create_base_configs.sh base_configs buttercup_games`</br>
 </br>
 This example command will create the following set of files & directories:</br>
 </br>
